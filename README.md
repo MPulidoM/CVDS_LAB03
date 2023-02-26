@@ -27,3 +27,41 @@ En el directorio de trabajo ejecutar el comando necesario para crear un proyecto
     <maven.compiler.source>1.8</maven.compiler.source>     
     </properties> 
 ```
+## COMPILAR Y EJECUTAR
+* Ejecute los comandos necesarios de Maven, para compilar el proyecto y verificar que el proyecto se creó correctamente y los cambios realizados al archivo
+pom no generan inconvenientes.
+* Busque el comando requerido para ejecutar las pruebas unitarias de un proyecto desde Maven y ejecútelo sobre el proyecto. Se debe ejecutar la clase
+AppTest con resultado exitoso.
+
+
+## EJERCICIO “REGISTRADURÍA”
+Se va a crear un proyecto base para un requerimiento de la registraduría en el cual se registrarán personas con intención de votar paras las próximas
+elecciones y se generarán los certificados electorales de aquellas personas cuyo voto sea válido.
+
+### PROPIEDADES
+* Solo se registrarán votantes válidos
+* Solo se permite una inscripción por número de documento
+## EJECUTAR LAS PRUEBAS
+Para correr las pruebas utilice
+```
+mvn package
+```
+
+Tambien puede utilizar:
+```
+mvn test
+```
+
+Revise cual es la diferencia.
+
+## FINALIZAR EL EJERCICIO
+* Piense en los casos de equivalencia que se pueden generar del ejercicio para la registraduría, dadas las condiciones. Deben ser al menos 5.
+* Complete la implementación de la clase RegistryTest.java con (al menos) un método por cada clase de equivalencia, creando
+diferentes personas y validando que el resultado sea el esperado.
+* Complete la implementación del método registerVoter en la clase Registry.java para retornar el resultado esperado según la entrada.
+
+
+### __Autores__
+
+* Erika Juliana Castro Romero [Juc28](https://github.com/Juc28)
+* Mariana Pulido Moreno [MPulidoM](https://github.com/MPulidoM)
