@@ -62,6 +62,7 @@ Revise cual es la diferencia.
 * Complete la implementación de la clase RegistryTest.java con (al menos) un método por cada clase de equivalencia, creando
 diferentes personas y validando que el resultado sea el esperado.
 * Complete la implementación del método registerVoter en la clase Registry.java para retornar el resultado esperado según la entrada.
+
 ![7](https://github.com/MPulidoM/CVDS_LAB03/blob/main/Pantallazos/PRUEBAS1.PNG)
 ![8](https://github.com/MPulidoM/CVDS_LAB03/blob/main/Pantallazos/EjPrueba1.PNG)
 ![9](https://github.com/MPulidoM/CVDS_LAB03/blob/main/Pantallazos/ejrpuebamaven.PNG)
